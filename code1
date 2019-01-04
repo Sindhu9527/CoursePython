@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan  3 18:40:40 2019
+
+@author: sindh
+"""
+# Write a program that prompts for a file name, then opens that 
+#file and reads through the file, and print the contents of the file in 
+#upper case. Use the file words.txt to produce the output below.
+#You can download the sample data at
+
+fname = input("Enter the file name:")
+y=''
+fn = open('C:\\Users\\sindh\\Desktop\\COURSERA\\PYTHON DATA STRUCTURES\\words.txt')
+for x in fn.read():
+    #print (x.upper())
+    y=y+x.upper()
+print(y)
